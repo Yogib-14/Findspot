@@ -1,0 +1,30 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 20px;
+	color: #b1b4bd;
+}
+
+.single-process{
+	position:relative;
+	margin-top: 40px;
+	padding-left: 20px;
+	margin-bottom: 40px;
+	padding-right:20px;
+}
+
+.bungkus_rekomendasi{
+	background-color: lightblue; 
+	color:black;
+}
+
+.center{
+	display: block;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,79 @@
+
+a{
+	color: #b1b4bd;
+	font-weight: 500px;
+}
+a:hover {
+	color: #e74c3c;
+}
+.kelasLogo{
+	width:100px;
+}
+
+ul li.nav-item_active a{
+	
+	color: #e74c3c;
+	
+}
+
+#profile_active a.nav-link.dropdown-toggle{
+	
+	color: #e74c3c;
+	
+}
+
+.dropdown-item{
+	color: #b1b4bd;
+	font-weight: 500px;
+	z-index:10;
+}
+
+#navbarSupportedContent ul li a{
+	padding:15px;
+}	
+
+.header-background{
+	position:static;
+	display:block;
+	overflow: visible;
+	top:0;
+	height: auto;
+	min-height: 750px;
+	margin-bottom: 50px;
+	padding-bottom: 5px;
+	
+	
+	
+	flex-direction: column;
+	background-position: 0px 0px, 100% 50%;
+	background-size: auto, cover;
+	white-space: normal;
+	object-fit: fill;
+	-o-object-fit: fill;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+}
+.sticky-nav{
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	padding:4px;
+	z-index:1;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	-ms-grid-row-align: auto;
+	align-self: auto;
+	-webkit-box-ordinal-group:1;
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	background-color: rgba(255,255, 255, .85);
+	font-size:25px;
+}
+
+#btnLogin {
+	margin-right: 50px;
+	margin-top: 20px;
+}
